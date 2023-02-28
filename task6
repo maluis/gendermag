@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+      /* Flexbox container */
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      
+      /* Flexbox item */
+      .item {
+        flex-basis: 30%;
+        padding: 10px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">
+        <h2>Item 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="item">
+        <h2>Item 2</h2>
+        <p>Nullam consectetur elit quis sapien tempor, ut tincidunt lorem mollis.</p>
+      </div>
+      <div class="item">
+        <h2>Item 3</h2>
+        <p>Sed feugiat nibh in felis cursus, vel malesuada nulla fermentum.</p>
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
